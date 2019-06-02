@@ -8,8 +8,8 @@ tweets = ["Hey guys, can anyone teach me how to be cool? I really want to be the
 "New game. Middle aged tweet followed by #youngPeopleHashTag Example: Gotta get my colonoscopy and mammogram soon. Prevention is key! #swag"]
 
 
-def word_substituter
-  word_substituter = {
+def word_substituter(tweet)
+  tweet = {
   "hello" => "hi",
   " to " => " 2  ",
   " two " => " 2 ",
