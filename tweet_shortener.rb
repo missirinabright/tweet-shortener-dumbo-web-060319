@@ -24,12 +24,12 @@ def word_substituter(tweet)
 end
 
       
-# def word_substituter(tweet)
-#   #added spaces before and after each element, to prevent the replacements inside of a bigger word containing these elements
+def word_substituter(tweet)
+  #added spaces before and after each element, to prevent the replacements inside of a bigger word containing these elements
   
-#   tweet = tweet.gsub("hello", " hi ").gsub(" too ", " 2 ").gsub(" two ", " 2 ").gsub(" to ", " 2 ").gsub(" be ", " b ").gsub(" you ", " u ").gsub(" at ", " @ ").gsub(" and ", " & ").gsub(" For ", " 4 ").gsub(" for ", " 4 ")
-#   tweet
-# end
+  tweet = tweet.gsub("hello", " hi ").gsub(" too ", " 2 ").gsub(" two ", " 2 ").gsub(" to ", " 2 ").gsub(" be ", " b ").gsub(" you ", " u ").gsub(" at ", " @ ").gsub(" and ", " & ").gsub(" For ", " 4 ").gsub(" for ", " 4 ")
+  tweet
+end
 
 
   
