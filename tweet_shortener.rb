@@ -8,31 +8,21 @@ tweets = ["Hey guys, can anyone teach me how to be cool? I really want to be the
 "New game. Middle aged tweet followed by #youngPeopleHashTag Example: Gotta get my colonoscopy and mammogram soon. Prevention is key! #swag"]
 
 
-def dictionary
-  dictionary = {
-   "hello" => "hi",
-   "to" => "2",
-   "two" => "2",
-   "too" => "2",
-   "for" => "4",
-   "four" => "4",
-   "be" => "b",
-   "you" => "u",
-   "at" => "u",
-   "and" => "@"
-  }
-end
-
-
-# def word_substituter(tweet)
-#   tweet.split.collect do |word|
-#     if dictionary.keys.include?(word.downcase)
-#       word = dictionary[word.downcase]
-#     else
-#       word
-#     end
-#   end.join(" ")
+# def dictionary
+#   dictionary = {
+#   "hello" => "hi",
+#   "to" => "2",
+#   "two" => "2",
+#   "too" => "2",
+#   "for" => "4",
+#   "four" => "4",
+#   "be" => "b",
+#   "you" => "u",
+#   "at" => "u",
+#   "and" => "@"
+#   }
 # end
+
       
 def word_substituter(string)
   string = string.gsub("hello", "hi").gsub("too", "2").gsub("two", "2").gsub("to", "2").gsub("be ", "b ").gsub(" you ", " u ").gsub(" at ", " @ ").gsub(" and ", " & ").gsub(" for ", " 4 ").gsub(" For ", " 4 ")
