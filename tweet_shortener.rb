@@ -25,7 +25,7 @@ tweets = ["Hey guys, can anyone teach me how to be cool? I really want to be the
 
       
 def word_substituter(tweet)
-  tweet = tweet.gsub("hello", "hi").gsub("too", "2").gsub("two", "2").gsub("to", "2").gsub("be", "b").gsub("you", "u").gsub("at", "@").gsub("and", "&").gsub("for", "4").gsub("for", "4")
+  tweet = tweet.gsub("hello", " hi ").gsub(" too ", " 2 ").gsub(" two ", " 2 ").gsub(" to ", " 2 ").gsub(" be ", " b ").gsub(" you ", " u ").gsub(" at ", " @ ").gsub(" and ", " & ").gsub(" For ", " 4 ").gsub(" for ", " 4 ")
   tweet
 end
 
