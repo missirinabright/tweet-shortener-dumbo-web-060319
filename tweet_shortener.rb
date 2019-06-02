@@ -34,5 +34,10 @@ def word_substituter(tweet)
   end.join(" ")
 end
       
+def word_substituter(string)
+  string = string.gsub("hello", "hi").gsub("too", "2").gsub("two", "2").gsub("to", "2").gsub("be ", "b ").gsub(" you ", " u ").gsub(" at ", " @ ").gsub(" and ", " & ").gsub(" for ", " 4 ").gsub(" For ", " 4 ")
+  string
+end
+
 
   
